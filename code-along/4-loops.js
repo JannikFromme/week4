@@ -1,4 +1,4 @@
-let ingredients = [`bottom bun`, `beef patty`, `cheese`, `onion`, `tomato`, `lettuce`, `top bun`]
+let ingredients = [`bottom bun`, `beef patty`, `cheese`, `onion`, `tomato`, `lettuce`, `special sauce`,`top bun`]
 
 // Goal: write each ingredient of the burger, in order of assembly, to the JavaScript console
 
@@ -13,3 +13,6 @@ console.log(ingredients[6])
 
 // with a loop
 // for (declare a variable for counting ("counter variable"); determine the criteria for the number of times to loop; increment the counter)
+for (let i = 0; i < ingredients.length; i++) {
+    console.log(`remember to buy ${ingredients[i]}`)
+}
